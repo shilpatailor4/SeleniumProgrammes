@@ -10,5 +10,10 @@
 	<classpathentry kind="lib" path="E:/Shilpa/Selenium/Selenium Jar files/selenium-java-3.141.59/client-combined-3.141.59.jar"/>
 	<classpathentry kind="lib" path="E:/Shilpa/Selenium/Selenium Jar files/selenium-java-3.141.59/client-combined-3.141.59-sources.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="E:/Shilpa/Selenium/Selenium Jar files/poi-3.9.jar.zip"/>
+	<classpathentry kind="lib" path="E:/Shilpa/Selenium/Selenium Jar files/java-util-1.3.1.jar.zip"/>
+	<classpathentry kind="lib" path="E:/Shilpa/Selenium/Selenium Jar files/jxl-2.6.jar.zip"/>
+	<classpathentry kind="lib" path="E:/Shilpa/Selenium/Selenium Jar files/java-util-1.3.1.jar/java-util-1.3.1.jar"/>
+	<classpathentry kind="lib" path="E:/Shilpa/Selenium/Selenium Jar files/jxl-2.6.jar/jxl-2.6.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
