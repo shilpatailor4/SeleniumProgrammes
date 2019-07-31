@@ -36,15 +36,23 @@ import jxl.JXLException;
 	for(int row=0; row <=s.getRows();row++)
 	{
 	String username = s.getCell(0, row).getContents();
+	
 	System.out.println("Username "+username);
+	
 	//driver.get("http://www.gmail.com");
 	driver.manage().window().maximize();
+	
 	driver.findElement(By.name("Email")).sendKeys(username);
+	
 	String password= s.getCell(1, row).getContents();
+	
 	System.out.println("Password "+password);
 	driver.findElement(By.name("Passwd")).sendKeys(password);
+	
 	Thread.sleep(10000);
+	
 	driver.findElement(By.name("signIn")).click();
+	
 	if((driver.findElement(By.xpath("//span[@id='errormsg_0_Passwd']"))).isDisplayed())
 	{
 	System.out.println("Login Fail !Error Exists");
